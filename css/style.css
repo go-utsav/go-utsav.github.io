@@ -15,6 +15,7 @@
     font-family: 'Playfair Display', serif; /* Elegant font for headings */
   }
   
+  
   .hero-paragraph p {
     color: #333;
     line-height: 1.6;
@@ -48,12 +49,22 @@ p , li{
     font-size: large;
     
 }
+.accordion-item {
+    font-family: "Tenor Sans", sans-serif;
+}
 
 .my-heading {
     font-family: "Tenor Sans", sans-serif;
     font-weight: 800;
     font-style: normal;
     font-size: x-large;
+}
+.my-heading-two {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    /* font-size: x-large; */
+    color: #ff4500; 
 }
 
 .product-img {
@@ -63,6 +74,8 @@ p , li{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    
 }
 .product-description {
     /* padding: 20px; */
@@ -75,7 +88,7 @@ p , li{
     
 }
 
-
+.about-section { padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
 .p-price {
     font-family: "Tenor Sans", sans-serif;
     font-weight: 700;
