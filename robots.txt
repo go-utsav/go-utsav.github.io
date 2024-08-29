@@ -1,0 +1,15 @@
+# Allow all crawlers access to everything
+User-agent: *
+Disallow:
+
+# Disallow a specific folder
+User-agent: *
+Disallow: /private-folder/
+
+# Allow a specific crawler (e.g., Googlebot) access to everything
+User-agent: Googlebot
+Disallow:
+
+# Disallow all crawlers from accessing a specific page
+User-agent: *
+Disallow: /no-index-page.html
